@@ -1,0 +1,52 @@
+.background {
+  background-color: rgb(100, 94, 7);
+  background-image: url('../../assets/back-register.png');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu {
+  color: var(--white);
+  padding-top: 2rem;
+}
+.menu a{
+  color: var(--white);
+}
+
+.wrapper>div:first-child {
+  text-align: center;
+}
+
+.imagemLogo{
+  width: 50%;
+  text-align: center;
+}
+
+.card {
+  background-color: var(--gray-100);
+  box-shadow: 4px 6px 4px rgba(46, 43, 4, 0.349);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+.card h2 {
+  color: var(--white);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  max-width: 200px;
+}
