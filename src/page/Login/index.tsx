@@ -57,4 +57,3 @@ export function Login() {
     </div>
   );
 }
-// parou no video 3 no tmepo 1:15
