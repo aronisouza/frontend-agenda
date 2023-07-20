@@ -1,6 +1,6 @@
 import { forwardRef, ForwardRefRenderFunction } from 'react'
 import style from './input.module.css'
-import { IInput } from '../../Interface/Inteface'
+import { IInput } from '../../interface/Inteface'
 
 const InputBase: ForwardRefRenderFunction<HTMLInputElement, IInput> = (
   {error, placeholder, type, icon, ...rest }, ref,) => {

@@ -1,5 +1,6 @@
 :root {
-    --primary: #348789;
+    --primary: #346a89;
+    --primary-hover:rgba(57, 130, 172, 0.685);
     --secondary: #0c59a1;
     --gray-50: #DDDFEB;
     --gray-100: #97909050;
@@ -7,6 +8,9 @@
     --gray-300: #7C838B;
     --white: #FFF;
     --black: #000;
+}
+body{
+    background-color: var(--gray-50);
 }
 
 * {

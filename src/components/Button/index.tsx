@@ -1,5 +1,5 @@
-import style from './index.module.css'
-import { IButton } from "../../Interface/Inteface"
+import style from './button.module.css'
+import { IButton } from "../../interface/Inteface"
 
 export const Button = ({text}: IButton) =>{
   return(

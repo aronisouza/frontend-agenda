@@ -1,0 +1,42 @@
+.background {
+  display: flex;
+  background-color: var(--white);
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.219);
+  margin-bottom: .9rem;
+}
+
+.background>div {
+  display: flex;
+  align-items: center;
+}
+
+.background>div>p {
+  columns: var(--primary);
+  font-size: 1.2rem;
+}
+
+.background>div>span {
+  background-color: var(--secondary);
+  color: var(--white);
+  border-radius: 6px 0 0 6px;
+  width: 50px;
+  padding: 1rem;
+  margin-right: 0.5rem;
+}
+
+.icons {
+  margin-right: .3rem;
+}
+
+.icons svg {
+  margin-right: 1rem;
+}
+
+.japassoudata {
+  background-color: darkgrey !important;
+  color: #b31818 !important;
+  font-weight: 500;
+}
